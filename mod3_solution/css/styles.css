@@ -1,0 +1,49 @@
+.navbar {
+  background: #bfbfbf;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+.row {
+  margin: 0;
+}
+
+.row div {
+  float: none;
+  background: #e6e6e6;
+  margin: 0 auto;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+.navbar-collapse {
+  padding: 0;
+  border: 1px solid #eee;
+}
+
+.navbar-collapse a{
+  color: #a6a6a6;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+h4 {
+  padding-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+}
